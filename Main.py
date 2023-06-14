@@ -1,12 +1,13 @@
 #Даны 2 переменных, в которых хранятся строки произвольной длины: phrase_1 и phrase_2
 #Напишите код, который проверяет какая из этих строк длиннее.
 def compare_strings (str1, str2):
-    if str1 < str2:
-        print("1")
-    elif str1 > str2:
-        print("3")
+    if len(str1) < len(str2):
+        print("Строка 1 короче строки 2")
+        print (str1)
+    elif len(str1) > len(str2):
+        print("Строка 1 длиннее строки 2")
     else:
-        print("fdsfs")
+        print("Строки одинаковы по длине")
 
 if __name__ == "__main__":
     print ("dfdsfds")
