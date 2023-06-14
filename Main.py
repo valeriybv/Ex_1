@@ -3,7 +3,6 @@
 def compare_strings (str1, str2):
     if len(str1) < len(str2):
         print("Строка 1 короче строки 2")
-        print (str1)
     elif len(str1) > len(str2):
         print("Строка 1 длиннее строки 2")
     else:
